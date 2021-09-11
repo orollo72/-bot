@@ -13,8 +13,8 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def コンビニ(ctx):
- await ctx.send('ポーランド')
+async def ping(ctx):
+ await ctx.send('pong')
 
 
 @bot.command()
