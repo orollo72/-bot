@@ -32,22 +32,5 @@ async def kami(ctx):
  await ctx.send('呼んだか?')
 
 
-from discord.ext import commands
-
-bot = commands.Bot(command_prefix='$')
-
-@bot.command()
-async def test(ctx):
-    pass
-
-# or:
-
-@commands.command()
-async def test(ctx):
-    pass
-
-bot.add_command(test)
-
-
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
