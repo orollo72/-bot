@@ -41,5 +41,10 @@ async def neko(ctx):
  await ctx.send('にゃぁ')
 
 
+@bot.command()
+async def pei(ctx):
+ await ctx.send('ぺい？ん？大丈夫？')
+
+
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
