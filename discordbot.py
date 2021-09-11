@@ -38,7 +38,7 @@ async def rank(ctx):
 
 @bot.command()
 async def neko(ctx):
- await ctx.send('にゃー')
+ await ctx.send('にゃぁ')
 
 
 token = getenv('DISCORD_BOT_TOKEN')
