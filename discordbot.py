@@ -29,7 +29,7 @@ async def nice(ctx):
 　
 @bot.command()
 async def kami(ctx):
- await ctx.send('呼んだか？')
+ await ctx.send('呼んだか?')
 
 
 token = getenv('DISCORD_BOT_TOKEN')
