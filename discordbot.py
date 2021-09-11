@@ -31,6 +31,10 @@ async def nice(ctx):
 async def kami(ctx):
  await ctx.send('呼んだか?')
 
+@bot.command()
+async def rank(ctx):
+ await ctx.send('俺にそんなことできるとでも？')
+
 
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
