@@ -32,7 +32,7 @@ async def kami(ctx):
  await ctx.send('呼んだか?')
 
 @bot.command()
-async def ran(ctx):
+async def rank(ctx):
  await ctx.send('俺にそんなことできるとでも？')
 
 
