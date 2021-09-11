@@ -37,8 +37,8 @@ async def rank(ctx):
 
 
 @bot.command()
-async def pein(ctx):
- await ctx.send('pa')
+async def neko(ctx):
+ await ctx.send('にゃー')
 
 
 token = getenv('DISCORD_BOT_TOKEN')
