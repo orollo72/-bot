@@ -36,5 +36,10 @@ async def rank(ctx):
  await ctx.send('俺にそんなことできるとでも？')
 
 
+@bot.command()
+async def pein(ctx):
+ await ctx.send('pa')
+
+
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
