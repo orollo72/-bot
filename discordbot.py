@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def fuck(ctx):
+async def hallo(ctx):
     await ctx.send('なんやおめぇ誰だ！')
 
 
