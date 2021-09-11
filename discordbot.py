@@ -26,6 +26,11 @@ async def hallo(ctx):
 async def nice(ctx):
  await ctx.send('ナイス！')
 
+　
+@bot.command()
+async def kami(ctx):
+ await ctx.send('呼んだか？')
+
 
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
